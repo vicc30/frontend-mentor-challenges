@@ -1,5 +1,52 @@
-/* Main style */
+/* 
+* Main style 
+* Design width: 
+*   Mobile: 375px
+*   Desktop: 1440px
+*/
 
+:root {
+  /*Primary*/
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  /*Neutral*/
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+}
+
+*,
+*::after,
+*::before {
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--light-gray);
+}
+
+/*Container*/
+.container {
+  width: 800px;
+  display: flex;
+  margin: 5rem auto;
+  border-radius: 10px;
+}
+
+.container .card {
+  padding: 1rem 1.5rem;
+}
+/*Card background*/
+#one {
+  background-color: var(--bright-orange);
+}
+#two {
+  background-color: var(--dark-cyan);
+}
+#three {
+  background-color: var(--very-dark-cyan);
+}
+/* Attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
