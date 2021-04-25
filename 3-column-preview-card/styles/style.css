@@ -32,7 +32,6 @@ body {
   display: flex;
   margin: 5rem auto;
 }
-
 .container .card {
   display: flex;
   flex-direction: column;
@@ -40,11 +39,20 @@ body {
   padding: 1rem 1.5rem;
   color: var(--light-gray);
 }
-/*Card background*/
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .container .card {
+    min-height: 350px;
+    padding: 1rem 2rem;
+  }
+}
+/*Card background and card border radius*/
 #one {
   background-color: var(--bright-orange);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 5px 0 0 5px;
 }
 #one button {
   color: var(--bright-orange);
@@ -57,11 +65,18 @@ body {
 }
 #three {
   background-color: var(--very-dark-cyan);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 0 5px 5px 0;
 }
 #three button {
   color: var(--very-dark-cyan);
+}
+@media only screen and (max-width: 375px) {
+  #one {
+    border-radius: 5px 5px 0 0;
+  }
+  #three {
+    border-radius: 0 0 5px 5px;
+  }
 }
 /*Learn more button*/
 .footer button {
