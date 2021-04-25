@@ -27,24 +27,53 @@ body {
 
 /*Container*/
 .container {
-  width: 800px;
+  width: 700px;
+  min-height: 400px;
   display: flex;
   margin: 5rem auto;
-  border-radius: 10px;
 }
 
 .container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   padding: 1rem 1.5rem;
+  color: var(--light-gray);
 }
 /*Card background*/
 #one {
   background-color: var(--bright-orange);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#one button {
+  color: var(--bright-orange);
 }
 #two {
   background-color: var(--dark-cyan);
 }
+#two button {
+  color: var(--dark-cyan);
+}
 #three {
   background-color: var(--very-dark-cyan);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#three button {
+  color: var(--very-dark-cyan);
+}
+/*Learn more button*/
+.footer button {
+  background-color: var(--light-gray);
+  color: var(--transparent-white);
+  outline: none;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 1.25rem;
+}
+.footer button:hover {
+  cursor: pointer;
 }
 /* Attribution */
 .attribution {
