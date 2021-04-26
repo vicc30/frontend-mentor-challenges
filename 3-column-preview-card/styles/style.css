@@ -1,0 +1,124 @@
+/* 
+* Main style 
+* Design width: 
+*   Mobile: 375px
+*   Desktop: 1440px
+*/
+
+:root {
+  /*Primary*/
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  /*Neutral*/
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+}
+
+*,
+*::after,
+*::before {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  background-color: var(--light-gray);
+}
+
+/*Container*/
+.container {
+  width: 800px;
+  min-height: 450px;
+  display: flex;
+  margin: 5rem auto;
+}
+.container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem 1.5rem;
+  color: var(--light-gray);
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 80vw;
+    flex-direction: column;
+  }
+  .container .card {
+    min-height: 350px;
+    padding: 1rem 2rem;
+  }
+}
+/*Card title*/
+.title h3 {
+  font-family: 'Lexend Deca', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+/*Card background and card border radius*/
+#one {
+  background-color: var(--bright-orange);
+  border-radius: 5px 0 0 5px;
+}
+#one button {
+  color: var(--bright-orange);
+}
+#two {
+  background-color: var(--dark-cyan);
+}
+#two button {
+  color: var(--dark-cyan);
+}
+#three {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 5px 5px 0;
+}
+#three button {
+  color: var(--very-dark-cyan);
+}
+@media only screen and (max-width: 375px) {
+  #one {
+    border-radius: 5px 5px 0 0;
+  }
+  #three {
+    border-radius: 0 0 5px 5px;
+  }
+}
+/*Learn more button*/
+
+.footer{
+  margin-top: 3rem;
+}
+.footer button {
+  background-color: var(--light-gray);
+  color: var(--transparent-white);
+  outline: none;
+  border: 2px solid var(--light-gray);
+  padding: 0.75rem 1.25rem;
+  border-radius: 1.25rem;
+}
+.footer button:hover {
+  cursor: pointer;
+}
+#one button:hover {
+  background-color: var(--bright-orange);
+  color: var(--light-gray);
+}
+#two button:hover {
+  background-color: var(--dark-cyan);
+  color: var(--light-gray);
+}
+#three button:hover {
+  background-color: var(--very-dark-cyan);
+  color: var(--light-gray);
+}
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
