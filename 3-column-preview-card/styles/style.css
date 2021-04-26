@@ -41,7 +41,7 @@ body {
 }
 @media only screen and (max-width: 375px) {
   .container {
-    width: 90%;
+    width: 80vw;
     flex-direction: column;
   }
   .container .card {
@@ -83,12 +83,24 @@ body {
   background-color: var(--light-gray);
   color: var(--transparent-white);
   outline: none;
-  border: none;
+  border: 2px solid var(--light-gray);
   padding: 0.75rem 1.25rem;
   border-radius: 1.25rem;
 }
 .footer button:hover {
   cursor: pointer;
+}
+#one button:hover {
+  background-color: var(--bright-orange);
+  color: var(--light-gray);
+}
+#two button:hover {
+  background-color: var(--dark-cyan);
+  color: var(--light-gray);
+}
+#three button:hover {
+  background-color: var(--very-dark-cyan);
+  color: var(--light-gray);
 }
 /* Attribution */
 .attribution {
