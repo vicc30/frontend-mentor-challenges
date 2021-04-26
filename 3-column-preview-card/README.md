@@ -11,12 +11,12 @@ This exercise was sugested by ours BEDU's mentors [Peter]() and [Dany]()
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+    - [Web version](#web-version)
+    - [Mobile version](#mobile-version)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
@@ -33,7 +33,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+### Web version
+![](./images/3-column%20preview%20card%20component%20.png)
+
+### Mobile version
+![](./images/3-column-preview-card-component-mobile.png)
 
 ### Links
 
@@ -42,6 +46,12 @@ Users should be able to:
 
 ## My process
 
+* First I convert text into HTML tags.
+* Then I apply Flexbox to the components.
+* Then style and spacing to all elements.
+* Then apply Media Queries.
+* Then apply fonts and resize.
+* Finally pushed the project to Github.
 ### Built with
 
 - HTML5
@@ -51,20 +61,15 @@ Users should be able to:
 
 ### What I learned
 
-
-
-### Continued development
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+* CSS Flexbox
+* CSS Media Queries.
 
 ## Author
 
 - [Victor Cruz](https://github.com/vicc30/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
-Thank you to my mentors [Pedro Fragoso]() and [Daniel Castillo]().
+Thank you to my mentors: 
+* [Pedro Fragoso]() 
+* [Daniel Castillo]().
