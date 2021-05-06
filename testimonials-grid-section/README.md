@@ -38,10 +38,16 @@ Mobile Version:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/vicc30/frontend-mentor-challenges/tree/main/testimonials-grid-section)
+- Live Site URL: [Preview on Github Pages](https://vicc30.github.io/frontend-mentor-challenges/testimonials-grid-section/)
 
 ## My process
+
+* Adjust all content to HTML.
+* Display grid container and order cards.
+* Display cards and style them.
+* Display quote svg in card-1
+* Apply media queries for mobile.
 
 ### Built with
 
@@ -59,7 +65,7 @@ Positioning an image in background using `background-position-x`
 
 ### Useful resources
 
-- [Background Position X](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-x) - Quote positioning.
+- [Background Position X](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-x) - Quote svg positioning.
 
 ## Author
 
