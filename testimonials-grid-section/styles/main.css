@@ -33,7 +33,7 @@ body {
 }
 
 section {
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 /* Container */
 .container {
@@ -44,10 +44,20 @@ section {
   gap: 1.5rem;
   margin: auto;
 }
+@media screen and (max-width: 375px) {
+  .container {
+    width: 80vw;
+    display: block;
+  }
+  .card {
+    margin: 2rem 0;
+  }
+}
 /*General card style*/
 .card {
   padding: 1.5rem;
   border-radius: 7px;
+  line-height: 1.5;
 }
 /*User info*/
 .user {
@@ -118,6 +128,7 @@ section {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-bottom: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
