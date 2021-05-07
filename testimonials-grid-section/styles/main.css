@@ -58,6 +58,7 @@ section {
   padding: 1.5rem;
   border-radius: 7px;
   line-height: 1.2;
+  box-shadow: 7px 7px #29282810;
 }
 /*User info*/
 .user {
