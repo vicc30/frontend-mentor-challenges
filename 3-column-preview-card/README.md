@@ -20,8 +20,6 @@ This exercise was sugested by ours BEDU's mentors [Peter]() and [Dany]()
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -41,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Add solution URL here](https://github.com/vicc30/frontend-mentor-challenges/tree/main/3-column-preview-card)
+- Live Site URL: [Add live site URL here](https://vicc30.github.io/frontend-mentor-challenges/3-column-preview-card/)
 
 ## My process
 
